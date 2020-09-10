@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OM Furniture</title>
+	<!-- BootStrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!--Mobile Margins -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- Google icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<!-- -----Aos Script--- -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Google font -->
+<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+
+
+	<!--------- Nav Bar ------------------>
+
+	   <nav  class=" container navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a  class="navbar-brand" href="#"><img src="img/logo.jpg" class="nav-img" alt="SiR MiSAL" style="width: 70px;height: 30px;border-radius: 0%;" ></a>
+      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span  class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a  class="nav-link link" href="#">Home</span></a>
+      </li>
+      <li class="nav-item active">
+        <a  style="color: orange"  class="nav-link link" href="#menu-box">Furniture Menu</span></a>
+      </li>
+      <li class="nav-item ">
+        <a  class="nav-link link" href="#order">Payment Details </a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+<!-- x-x-x-x-x-x-x-x-x-x--x-x-x-x-x-x- -->
+<a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" href="#menu-box" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 310px;
+text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #4076EA;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">menu</p></a>
+
+<a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" href="tel:919309120359" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 10px;
+text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #2db300;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">call</p></a>
+
+<!-- Automatic Slideshow -->
+	<div class="w3-content w3-section" style="max-width:500px;margin-top: 56px;">
+		  <img class="mySlides" src="img/s1.jpg" style="width:100%">
+		  <img class="mySlides" src="img/s2.jpg" style="width:100%">
+		  <img class="mySlides" src="img/s3.jpg" style="width:100%">
+		  <img class="mySlides" src="img/s4.jpg" style="width:100%">
+		  <img class="mySlides" src="img/s5.jpg" style="width:100%">
+	</div>
+
+
+<!-- Automatic SlideShow Script -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+<!-- x-x-x-x-x-x-x-x-x-x-Home Page -->
+<div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="container home-page">
+	<center>
+		<img  class="logo" src="img/logo.jpg">
+		<div>
+			<a href="#" class="material-icons" style="margin: 15px; color: brown;">call</a>
+			<a href="#" class="material-icons" style="margin: 15px; color: brown;">chat</a>
+			<a href="#" class="material-icons" style="margin: 15px; color: brown;">place</a>
+		</div>
+	</center>
+	
+</div>
+<!-- x-x-x-x-x-x-x-x-x-x-x-x-x -->
+
+
+<!-- Menu Page -->
+<div id="menu-box" class="container menu-box "> 
+  <h5 data-aos="zoom-in" class="display-4 menu-head">All Furniture </h5>
+  <p class="menu-sub-head">Designs inspired by the new generation with a classic touch</p>
+  
+   <center> 
+   
+   <div class="w3-content w3-section" style="max-width:500px;margin-top: 56px;">
+		  <img data-aos="zoom-out" class="ad-img" src="img/ad.jpg"> 
+	</div>
+
+    <div  class="row ">
+      <div class="col border">
+        <a href="#sofa"><img class="menu-img" src="img/sofa.jpg" style="margin-left: -8px;margin-top: 10px;"></a>
+        <center>
+          <p class = "menu-txt" style="margin-top: -10px;" >Sofa</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#bed"><img class="menu-img" src="img/bed.png" style="margin-left: -5px;"></a>
+        <center>
+          <p class = "menu-txt">Bed</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#Dining"><img class="menu-img" src="img/dining.jpg" style="margin-left: -6px;"></a>
+        <center>
+          <p class = "menu-txt">Dining</p>
+        </center>
+      </div>
+      
+  </div>
+    <div class="row">
+      <div class="col border">
+        <a href="#kitchen"><img class="menu-img" src="img/kitchen.png"  style="margin-left: -7px;width: 80px;height: 85px;margin-top: 10px;"></a>
+        <center>
+          <p class = "menu-txt" style="margin-top: -15px;">Kitchen</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#TVunit"><img class="menu-img" src="img/TV unit.png"  style="margin-left: -7px;"></a>
+        <center>
+          <p class = "menu-txt">TV unit</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#coffee"><img class="menu-img" src="img/coffee.jpg"  style="margin-left: -8px;"></a>
+        <center>
+          <p class = "menu-txt">Coffee Tables</p>
+        </center>
+      </div>
+      
+  </div>
+    <div class="row">
+      <div class="col border">
+        <a href="#storage"><img class="menu-img" src="img/storage.png"  style="margin-left: -8px; margin-top: 5px;"></a>
+        <center>
+          <p class = "menu-txt">Storage</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#shoe"><img class="menu-img" src="img/shoe.png"  style="margin-left: -6px; margin-top: 5px;"></a>
+        <center>
+          <p class = "menu-txt">shoe</p>
+        </center>
+      </div>
+      <div class="col border">
+        <a href="#chairs" class="disabled"><img class="menu-img"  src="img/chairs.png" style="margin-left: -8px;width: 70px;height: 70px;margin-top: 10px;"></a>
+        <center>
+          <p class = "menu-txt" style="margin-left: -3px;">Chairs</p>
+        </center>
+      </div>
+      
+    </div>
+  
+
+</div>
+
+</center>
+</div>
+
+
+
+<div class="office-kids">
+  <center>
+    <h5 class="office-kids-heading-txt">Also Explore</h5>
+    <div class=" office">
+      <img class="gif-img" src="img/office.gif">
+      <a href="#office" class="btn btn-primary btn-sm office-btn">Office Furniture</a>
+    </div>
+
+
+   <div class="kids-room">
+      <img class="gif-img" src="img/kids.gif">
+      <a href="kids/kids.html" class="btn btn-danger btn-sm office-btn">Kids Room Furniture</a>
+    </div>
+
+
+  </center>
+</div>
+
+
+<!-- --------------------------------------Sofa ------------------------------------------->
+
+<a id="sofa"></a>
+<div  class="container Living-Room">
+  <h5  class="display-4 menu-head bg">Sofa </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="sofa/3 + 1 + 1/img/2.jpeg">
+            <center>
+              <p class="Living-Room-item-head">3 + 1 + 1</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="sofa/3 + 1 + 1/3 + 1 + 1.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="sofa/l-shape/img/1.jpeg">
+             <center>
+              <p class="Living-Room-item-head" >L-shape sofa</p>
+              <p class=" Living-Room-price" >Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="sofa/l-shape/l-shape.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="sofa/diwans/img/2.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Diwans</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="sofa/diwans/diwans.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+
+
+  <!-- --------------------------------------Bed ------------------------------------------->
+
+<a id="bed"></a>
+
+  <h5  class="display-4 menu-head bg">Bed </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="bed/wooden/img/14.jpeg" style="margin-top: 10px;">
+            <center>
+              <p class="Living-Room-item-head">Wooden Bed</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="bed/wooden/wooden.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="bed/commercial/img/10.jpeg">
+             <center>
+              <p class="Living-Room-item-head" >Bed commercial ply<p>
+              <p class=" Living-Room-price"  >Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="bed/commercial/commercial.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="bed/partical/img/5.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Partical Bed</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="bed/partical/partical.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+
+
+<!-- --------------------------------------Dining ------------------------------------------->
+
+<a id="Dining"></a>
+
+  <h5  class="display-4 menu-head bg">Dining </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="dining/4/img/5.jpeg">
+            <center>
+              <p class="Living-Room-item-head">4 Seaters</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="dining/4/4.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="dining/6/img/1.jpeg" style="padding-top: 55px;">
+             <center>
+              <p class="Living-Room-item-head" >6 Seaters</p>
+              <p class=" Living-Room-price" >Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="dining/6/6.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="dining/8/img/2.jpeg">
+            <center>
+              <p class="Living-Room-item-head">8 Seaters</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="dining/8/8.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+
+  <!-- --------------------------------------Kitchen ------------------------------------------->
+
+<a id="kitchen"></a>
+
+  <h5  class="display-4 menu-head bg">Kitchen </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >    
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="kitchen/kc/img/3.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Kitchen Cabinate</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="kitchen/kc/kc.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="kitchen/kt/img/3.jpeg" style="padding-top: 35px;">
+             <center>
+              <p class="Living-Room-item-head" style="margin-top: 40px;">Kitchen Trolly</p>
+              <p class=" Living-Room-price" style="margin-left: -9.5px;">Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="kitchen/kt/kt.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+
+      
+
+      
+  </div>
+
+<!-- ---------------------------------------------------TV unit ----------------------------------------->
+
+
+<a id="TVunit"></a>
+
+  <h5  class="display-4 menu-head bg">TV unit </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="TV unit/lcd unit/img/6.jpeg">
+            <center>
+              <p class="Living-Room-item-head">LCD unit</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="TV unit/lcd unit/lcd unit.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="TV unit/lcd base/img/5.jpeg">
+             <center>
+              <p class="Living-Room-item-head" style="margin-top: 30px;">LCD Base</p>
+              <p class=" Living-Room-price" style="margin-left:-9.5px;">Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="TV unit/lcd base/lcd base.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+    
+      
+  </div>
+</div>
+
+<!-- ---------------------------------------------------Coffee table----------------------------------------->
+
+
+<a id="coffee"></a>
+
+  <h5  class="display-4 menu-head bg">Coffee table </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="coffee/img/2.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Coffee table</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="coffee/coffee.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+
+    
+      
+  </div>
+</div>
+
+<!-- --------------------------------------Storage Unit ------------------------------------------->
+
+<a id="storage"></a>
+
+  <h5  class="display-4 menu-head bg">Storage </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="storage/scp/img/13.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Slidding commercial ply</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="storage/scp/scp.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="storage/cp/img/3.jpeg">
+             <center>
+              <p class="Living-Room-item-head" style="margin-top: 15px;">Commercial ply</p>
+              <p class=" Living-Room-price" style="margin-left: -9.5px;">Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="storage/cp/cp.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="storage/spwb/img/13.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Slidding partical wood base</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="storage/spwb/spwb.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+       <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="storage/wb/img/6.jpeg">
+             <center>
+              <p class="Living-Room-item-head" style="margin-top: 30px;">Wood base</p>
+              <p class=" Living-Room-price" style="margin-left: -9.5px;">Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="storage/wb/wb.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="storage/mdf/img/10.jpeg">
+            <center>
+              <p class="Living-Room-item-head">MDF</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="storage/mdf/mdf.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+
+
+<!-- ---------------------------------------------------Shoe rack----------------------------------------->
+
+<center></center>
+<a id="shoe"></a>
+
+  <h5  class="display-4 menu-head bg">Shoe Rack </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="shoe rack/img/4.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Shoe Rack</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="shoe rack/shoe rack.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+
+    
+      
+  </div>
+</div>
+
+
+
+
+
+<!-- --------------------------------------Chairs ------------------------------------------->
+
+<a id="chairs"></a>
+
+  <h5  class="display-4 menu-head bg">Chairs </h5>
+  <div class="row ">
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="chairs/arm/img/1.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Normal Arm Chairs</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="chairs/arm/arm.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="chairs/rocking/img/2.jpeg">
+             <center>
+              <p class="Living-Room-item-head" style="margin-top: 30px;">Rocking Chairs</p>
+              <p class=" Living-Room-price" style="margin-left: -9.5px;">Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="chairs/rocking/rocking.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="chairs/dining/img/1.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Dining Chairs</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="chairs/dining/dining.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+  <!-- --------------------------------------Office Furniture ------------------------------------------->
+
+<a id="office"></a>
+
+  <h5  class="display-4 menu-head bg">Office Furniture </h5>
+  <div class="row ">
+      
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light  " >     <!--L-Shape Sofa Sets-->
+          <div class="demo-content ">
+
+            <img class = "living-room-img one-edge-shadow " src="office/chairs/img/4.jpeg">
+             <center>
+              <p class="Living-Room-item-head" >Office chairs<p>
+              <p class=" Living-Room-price"  >Starting From <strong>Rs. 12,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="office/chairs/chairs.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >       <!--Loveseats Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="office/rack/img/1.jpeg" style="padding-top: 10px;">
+            <center>
+              <p class="Living-Room-item-head">File Rack</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn " style="margin-top: -5px;margin-left: -2px;" href="office/rack/rack.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000" class=" col-xs-6 menu-sub-box border border-light" >      <!--  Leather Sofa Sets-->
+          <div class="demo-content " >
+
+            <img class = "living-room-img one-edge-shadow" src="office/table/img/6.jpeg">
+            <center>
+              <p class="Living-Room-item-head">Office Table</p>
+              <p class=" Living-Room-price">Starting From <strong>Rs. 9,999</strong></p>
+              <a class="btn btn-outline-success btn-sm options-btn" style="margin-top: -5px;margin-left: -2px;" href="office/table/table.html">60+ options</a>
+            </center>
+          </div>
+      </div>
+
+      
+
+      
+  </div>
+
+<!-- ----------------AOS----------- -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- ------------------ -->
+
+
+<!-- x-x-x-x-x-x-x-x-x-x-x-xx-x-xx-x-x -->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
